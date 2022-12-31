@@ -3,6 +3,8 @@
 
 2. Print out a message addressed to them that tells them the year that    
     they will turn 100 years old.
+
+https://www.practicepython.org/exercise/2014/01/29/01-character-input.html
 """
 import datetime
 
