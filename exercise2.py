@@ -10,11 +10,20 @@ Ask the user for two numbers: one number to check (call it num) and one number t
 
 """
 number = int(input("give me a number "))
-if number % 2 != 0:
+if number % 2 != 0: #number is odd
     print("The number you chose is odd")
-else: 
+elif number % 4 == 0: #number is divisible by 4
+    print ("Your number is a multiple of 4")
+else: #number is even
     print("The number you chose is even")
 
+num1 = int(input("Give me a number, this will be divided by divisor "))
+divisor = int((input("Give me a number. This will act as your divisor ")))
+
+if num1 % divisor == 0:
+    print("your divisor divides evenly into num1")
+else:
+    print("There is a remainder when your number is divided by divisor")
 
 
 
