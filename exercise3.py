@@ -19,7 +19,22 @@ for element in a:
     if element<5:
         print(element)
 
+# get numbers less than 5
+# put numbers into list
+# print list
 
+b = []   
+for element in a:
+    if element<5:
+        b.append(element)
+print(b)   
+
+c = []
+user_num= int(input("give me a number"))
+for element in a:
+    if element < user_num:
+       c.append(element)
+print(c) 
 
 
 
