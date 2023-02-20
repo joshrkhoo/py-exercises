@@ -7,12 +7,11 @@ a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(a[1:5:4])
 #This prints [2]
 
-x = input("type a string")
-b = []
-x.append(b)
-
-print(b)
-
+x = input("type a string ")
+a = []
+for elem in x:
+   a.append(elem)
+print(a) 
 
 
 """
@@ -28,7 +27,12 @@ NOTES
         - [1:5:4] would mean:
             give numbers in list between num1 and num5, starting at num1 and goin up by 4s
 
-
+PSEUDO CODE
+1. ask user for a string
+2. convert string into list
+3. add string elements to a list
+4. check if list reads same forward and backward
+5. tell user if palindrome or not 
 
 """
 
