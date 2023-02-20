@@ -1,27 +1,4 @@
 """
-<<<<<<< HEAD
-1. Ask the user for a number. 
-2. Depending on whether the number is even or odd, print out an appropriate message to the user. 
-    Hint: how does an even / odd number react differently when divided by 2?
-
-https://www.practicepython.org/exercise/2014/02/05/02-odd-or-even.html
-"""
-
-number = int(input("Give a number"))
-
-print(number)
-
-
-
-
-
-
-
-
-"""
-Learning
-    - % (modulus operator) gives the remainder of a division
-=======
 Exercise 2 
 
 Ask the user for a number. Depending on whether the number is even or odd, print out an appropriate message to the user. Hint: how does an even / odd number react differently when divided by 2?
@@ -62,5 +39,4 @@ conditionals
 - when a program needs to decide something, it checks whether some condition is satisfied
 - "if statements"
 
->>>>>>> a44f852da4bce75a824f2dfdff2d4aec413a39c6
 """
