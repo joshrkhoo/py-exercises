@@ -7,12 +7,17 @@ a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(a[1:5:4])
 #This prints [2]
 
-x = input("type a string ")
-a = []
+x = input("type a string: ")
+b = []
 for elem in x:
-   a.append(elem)
-print(a) 
-
+   b.append(elem)
+print(b)
+c = b[::-1]
+print(c)
+if b == c: 
+    print("string is a palindrome")
+else:
+    print("string is not a palindrome")
 
 """
 NOTES
