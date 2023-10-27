@@ -8,8 +8,10 @@ even elements of this list in it.
 a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 even_nums = []
 
-for elem in a:
-    if elem % 2 == 0:
-         even_nums.append(elem)
-    else:pass
-print(even_nums)
+# for elem in a:
+#     if elem % 2 == 0:
+#          even_nums.append(elem)
+#     else:pass
+# print(even_nums)
+
+print([elem for elem in a if elem % 2 == 0])
